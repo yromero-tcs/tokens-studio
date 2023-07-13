@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Thu, 13 Jul 2023 19:49:37 GMT
+-->
+<resources>
+  <color name="color_primary_1">#ff0047bb</color>
+  <color name="color_primary_2">#ffffc658</color>
+  <color name="color_primary_3">#ff400186</color>
+  <color name="color_primary_4">#ffe63888</color>
+  <color name="color_secondary_1">#ffb6caeb</color>
+  <color name="color_secondary_2">#ffffe9be</color>
+  <color name="color_secondary_3">#ffc8b3dc</color>
+  <color name="color_secondary_4">#fff7afcd</color>
+  <color name="color_tertiary_1">#fff3f8ff</color>
+  <color name="color_tertiary_2">#ffdfe8ff</color>
+  <color name="color_tertiary_3">#ff000000</color>
+  <color name="color_tertiary_4">#ffffffff</color>
+  <color name="color_tertiary_5">#00000000</color>
+  <color name="color_font_black">#ff333333</color>
+  <color name="color_font_white">#ffffffff</color>
+  <color name="color_font_grey">#ffd4d4d4</color>
+  <color name="color_link">#ff266cdc</color>
+  <color name="color_gradient">#ff000000</color>
+  <color name="color_chart_1">#ff0047bb</color>
+  <color name="color_chart_2">#ffffc658</color>
+  <color name="color_chart_3">#ff400186</color>
+  <color name="color_chart_4">#ffe63888</color>
+  <color name="color_chart_5">#ffb6caeb</color>
+  <color name="color_chart_6">#ffffe9be</color>
+  <color name="color_background_button_primary">#ff0047bb</color>
+  <color name="color_background_button_secondary">#ffffffff</color>
+  <color name="color_transparency">#00000000</color>
+  <color name="color_border_button_primary">#00000000</color>
+  <color name="color_border_button_secondary">#ff0047bb</color>
+  <color name="color_text_button_primary">#ffffffff</color>
+  <color name="color_text_button_secondary">#ff0047bb</color>
+  
+</resources>

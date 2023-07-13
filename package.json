@@ -1,0 +1,26 @@
+{
+  "name": "tokens-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yromero-tcs/tokens-studio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yromero-tcs/tokens-studio/issues"
+  },
+  "homepage": "https://github.com/yromero-tcs/tokens-studio#readme",
+  "dependencies": {
+    "token-transformer": "0.0.33"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
+}
