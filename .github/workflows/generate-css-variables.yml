@@ -1,0 +1,32 @@
+name: Generate LESS Variables from Tokens
+
+on:
+  push:
+    paths:
+      - .github/workflows/generate-css-variables.yml
+      - tokens.json
+jobs: 
+  update_vm_data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          cache: 'npm'
+      - name: Install
+        run: npm ci
+        env:
+          NPM_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
+      - name: Generate LESS Variables
+        run: npm run build
+      - name: Commit Files
+        id: commit
+        continue-on-error: true
+        run: |
+          git pull origin ${GITHUB_REF_NAME}
+          git config --global user.name 'labby-tcs'
+          git config --global user.email 'labby@truechoicesolutions.com'
+          git add data/tokens.json && git add build
+          git commit -m "build: generate css variables"
+          git push
