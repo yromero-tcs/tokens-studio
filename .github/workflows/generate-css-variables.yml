@@ -6,7 +6,7 @@ on:
       - .github/workflows/generate-css-variables.yml
       - tokens.json
 jobs: 
-  update_vm_data:
+  generate_css_variables:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
