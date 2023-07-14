@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 14 Jul 2023 20:11:35 GMT
+ * Generated on Fri, 14 Jul 2023 20:19:03 GMT
  */
 
 export const colorPrimary1 = "#0047bb";
@@ -90,7 +90,7 @@ export const sizeButtonPrimaryHeight = "48px";
 export const sizeButtonPrimaryWidth = "280px";
 export const sizeButtonSecondaryHeight = "48px";
 export const sizeButtonSecondaryWidth = "280px";
-export const shadow1 = "0 1px 4px 0 #0047BB";
+export const shadow1 = "0 1px 4px 0 #0047BA";
 export const shadow2 = "0 4px 8px 0 #0047BB";
 export const shadow3 = "0 8px 16px 0 #0047BB";
 export const shadow4 = "0 12px 24px 0 #0047BB";
