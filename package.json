@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "transform": "token-transformer tokens.json data/tokens.json",
     "build": "style-dictionary build"
   },
   "repository": {
